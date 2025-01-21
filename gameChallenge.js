@@ -98,7 +98,7 @@ class Guerrero extends LuchadorConStamina {
   }
   //redefiniendo Vida + defensa
   getVida() {
-    //duda no seria setVida? checar atacar de luchador
+    //check atacar de luchador
     return super.getVida + this.defensa;
   }
 }
